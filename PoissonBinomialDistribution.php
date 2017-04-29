@@ -60,5 +60,5 @@ $n = count($p);
 for ($k=0; $k<=$n; $k++) 
 {
 	$Pr = $pbd->Pr($k, $n, $p);
-	print("<br>The probability of $k successed in $n trials is $Pr");
+	print("<br>The probability of $k successes in $n trials is $Pr");
 }
